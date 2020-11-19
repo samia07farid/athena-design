@@ -6,12 +6,6 @@ const Home = () => {
     return (
         <div>
 
-            <div className="mt-5">
-                <Running />
-            </div>
-            <div className="mt-5">
-                <Achievements />
-            </div>
         </div>
     );
 };
