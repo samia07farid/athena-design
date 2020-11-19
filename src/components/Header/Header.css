@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.container-md h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    letter-spacing: 0.1cm;
+    font-size: 70px;
+}
+.container-md .btn{
+    padding: 10px 20px;
+}
+.header-p{
+    width: 450px;
+    font-size: 14px;
+}
+
+/* @media screen and (max-width: 800px) {
+    div.container-md{
+      width: 100%; 
+    }
+    div .img-res{
+        width: 100%;
+    }
+  } */
