@@ -1,0 +1,73 @@
+.teamPrice {
+    padding: 5% 10%;
+    background-image: url(../../Illustration/Group\ 46@2x.png);
+    background-position: -50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .teamPrice > h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .teamPrice > div > div {
+    padding: 0% 2%;
+  }
+  .teamPrice > div > div > div {
+    border-radius: 0%;
+    min-height: 500px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px lightgray;
+  }
+  .teamPrice > div > div > div:hover {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom, #52ebd9, #07ace9);
+  }
+  .teamPrice > div > div > div:hover > p:nth-child(2)::after {
+    opacity: 0;
+  }
+  .teamPrice > div > div > div:hover > button {
+    display: inline-block;
+  }
+  .teamPrice > div > div > div > h2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .teamPrice > div > div > div > p:nth-child(2) {
+    color: gray;
+    position: relative;
+  }
+  .teamPrice > div > div > div > p:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    background-color: #1ad2bd;
+    width: 200px;
+    height: 1px;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%);
+  }
+  .teamPrice > div > div > div > p:not(:nth-child(2)) {
+    margin: 20px 0px;
+  }
+  .teamPrice > div > div > div > button {
+    background-image: linear-gradient(to right, #1ad2bd, #07ace9);
+    text-transform: inherit;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    border-radius: 15px 0px 15px 0px;
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .teamPrice {
+      padding: 10% 5%;
+    }
+    .teamPrice > div > div {
+      padding: 0% 0%;
+      margin-bottom: 30px;
+    }
+  }
+  

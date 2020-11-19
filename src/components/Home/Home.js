@@ -1,10 +1,19 @@
 import React from 'react';
+
+import Footer from '../Footer/Footer';
+import TeamPrice from '../TeamPrice/TeamPrice';
+
 import Achievements from '../MiddleTwoParts/Achievements/Achievements';
 import Running from '../MiddleTwoParts/Running/Running';
+
 
 const Home = () => {
     return (
         <div>
+
+            <TeamPrice/>
+            <Footer/>
+
 
             <div className="mt-5">
                 <Running />
@@ -23,6 +32,7 @@ const Home = () => {
             <Navbar/>
             <Header/>
             <WhatWeDo/>
+
 
         </div>
     );
