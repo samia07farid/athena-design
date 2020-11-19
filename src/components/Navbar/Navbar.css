@@ -1,0 +1,19 @@
+.nav-link{
+    color: black;
+}
+.nav-item a:hover{
+    color: black;
+    font-weight: 600;
+    transition: 0.1s;
+}
+.common-btn{
+    color: white;
+    font-size: 13px;
+    font-family: monospace;
+    background: rgb(58,237,193);
+    background: linear-gradient(145deg, rgba(58,237,193,1) 12%, rgba(22,195,229,1) 58%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+    padding-left: 20px;
+    padding-right: 20px;
+}

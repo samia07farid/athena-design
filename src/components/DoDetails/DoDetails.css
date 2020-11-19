@@ -1,0 +1,28 @@
+.box{
+    border-top-left-radius:70px; 
+    border-bottom-right-radius:70px;
+    width:280px;
+    height: 265px;
+    transition:0.5s;
+
+}
+
+.box:hover{
+    box-shadow: 1px 0px 38px -2px rgba(220,220,220,0.75);
+    background-color: white;
+  transition:0.5s;
+   
+
+}
+
+.h5{
+  color: rgb(80, 80, 80);
+   font-family: Helvetica; 
+   font-weight:bold;
+   font-size: 17px;
+}
+
+.p2{
+    color: rgb(196, 196, 196);
+    font-size:12px;
+}
