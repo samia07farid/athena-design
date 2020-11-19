@@ -1,0 +1,95 @@
+.img{
+  background-color: gray;  
+  border-radius: 50%;
+}
+.happy{
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: gray;
+    font-weight: 500;
+    padding: 10px 25px;
+    height: auto;
+    width: auto;
+    box-shadow: 5px 4px 60px rgba(149, 226, 235, 0.775)
+}
+.happy:hover{
+    color: white;
+    background-image: linear-gradient(45deg, rgb(14, 188, 217), rgb(29, 219, 182));
+}
+
+.cup{
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: gray;
+    font-weight: 500;
+    padding: 10px 25px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 4px 60px rgba(149, 226, 235, 0.775)
+}
+.cup:hover{ 
+    color: white;
+    background-image: linear-gradient(45deg, rgb(14, 188, 217), rgb(29, 219, 182));
+}
+
+.star{
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: gray;
+    font-weight: 500;
+    padding: 10px 25px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 4px 60px rgba(149, 226, 235, 0.775)
+}
+
+.star:hover{ 
+    color: white;
+    background-image: linear-gradient(45deg, rgb(14, 188, 217), rgb(29, 219, 182));
+}
+
+.rocket{
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: gray;
+    font-weight: 500;
+    padding: 10px 25px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 4px 60px rgba(149, 226, 235, 0.775)
+}
+.rocket:hover{ 
+    color: white;
+    background-image: linear-gradient(45deg, rgb(14, 188, 217), rgb(29, 219, 182));
+}
+
+
+@media (max-width: 576px) {
+    .happy {
+    margin-top: 55px;
+    }
+    .rocket {
+        margin-top: 55px;
+        }
+  }
+
+@media (max-width: 576px) {
+    .rocket, .cup, .star {
+    margin-top: 25px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .rocket, .cup, .star{
+        margin-top: 25px;
+        }
+  }
+  @media (max-width: 998px) {
+    .rocket, .cup, .star{
+        margin-top: 25px;
+        }
+  }
